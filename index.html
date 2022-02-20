@@ -1,0 +1,245 @@
+<html>
+<title>Personal Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+body{
+  overflow: hidden;
+  background: black;
+}
+body, h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat", sans-serif
+}
+@media only screen and (max-device-width: 600px){
+  .w3-image{
+    position: absolute;
+    left: 0px;
+    width: 35%;
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+  }
+ @keyframes move{
+  from{transform: translateX(0px);}
+  to{transform: translateX(128px);}
+ }
+  
+}
+
+ 
+.w3-row-padding img {margin-bottom: 12px}
+
+.w3-sidebar {width: 120px;background: dimgrey;}
+
+#main {margin-left: 120px}
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+
+
+</style>
+<body>
+
+<nav class="w3-sidebar w3-bar-block w3-border-right w3-hide-small" style="display:none" id="mySidebar">
+
+  <button onclick="w3_close()" class="w3-bar-item w3-large w3-hover-black"style="background: black;color: lightgrey;cursor: pointer;font-family: sans-serif;"> &times;</button>
+    <img src="img/img2.jpeg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#Project" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-cloud w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+  <button class="w3-button w3-teal w3-xlarge w3-black w3-hide-small" onclick="w3_open()">☰</button>
+    
+  </div>
+</div>
+<div class="w3-padding-large">
+  <header class="w3-container w3-padding-32 w3-center w3-black">
+    <h1 class="w3-jumbo"style="position: relative;top: -20px;">Hey<span class="w3-hide-small"style="position: relative;right: -18px;">there!</span></h1>
+    <p style="position: relative;top: -20px;">This is Sayantan</p>
+    <img  src="img/img.jpeg"alt="boy"class="w3-image" width="20%">
+  </header>
+
+</div>
+
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-hover-black w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#Project" class="w3-bar-item w3-button" style="width:25% !important">PROJECT</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+<br />
+<br /> <br />
+
+<!--about section --->
+<div class="w3-content w3-justify w3-padding-64 w3-text-grey" id="about">
+  <h2 class="w3-text-light-grey"style="position: relative;right: -16px;font-size: 35px;">About Me </h2>
+    <hr style="width:175px;position:relative;right: -18px;top: -10px;" class="w3-opacity">
+    <p style="padding: 10px;">Hello this is Sayantan. Currently I am pursuing my B.tech degree. I am an active Web Developer and an ML Enthusiast. My next target is to pursue my Masters in Machine Learning.My management skills are at top notch. Solving decision making problems are my strength. I usualy love to work in my domain.Gaining skills and improving myself everyday is my passion. </p>
+
+    <h3 class=" w3-padding 16 w3-text-light-grey"style="position: relative;bottom: -10px;font-size: 28px;">My Skills :</h3>
+    <p class="w3-wide"style="position: relative;right: -18px;"><b>DS ALgo</b></p>
+    <div class="w3-white" style="position:relative;right: -20px;">
+      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
+    </div>
+    <p class="w3-wide"style="position: relative;right: -18px;"><b>Machine Learning</b></p>
+    <div class="w3-white" style="position:relative;right: -20px;">
+      <div class="w3-dark-grey" style="height:28px;width:40%"></div>
+    </div>
+    <p class="w3-wide" style="position : relative;right: -18px;"><b>Web Development</b></p>
+    <div class="w3-white" style="position :relative;right: -20px;">
+      <div class="w3-dark-grey" style="height: 28px;width: 70%;"></div>
+    </div>
+    <p class="w3-wide" style="position:relative;right: -18px;"><b>Management</b></p>
+    <div class="w3-white" style="position:relative;right: -20px;">
+      <div class="w3-dark-grey" style="height: 28px;width: 80%;"></div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section"style="position: relative;bottom: -15px;right: -20px;">
+      <i class="fa fa-download"></i>Resume
+    </button>
+
+    <h3 class="w3-padding-16 w3-text-light-grey" style="position:relative;right:-20px;font-size: 28px;">My Domain :</h3>
+    <div class="w3-row-padding" style="margin:0 1px;position: relative;">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Languages</li>
+          <li class="w3-padding-16">Html</li>
+          <li class="w3-padding-16">CSS</li>
+          <li class="w3-padding-16">Php</li>
+          <li class="w3-padding-16">Python</li>
+          <li class="w3-padding-16">Java</li>
+          <li class="w3-padding-16">C</li>
+          <li class="w3-padding-16">SQL</li>
+          <li class="w3-padding-16">Flask</li>
+        </ul> 
+      </div>  
+
+    <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic Platforms</li>
+          <li class="w3-padding-64">Microsoft Powerpoint</li>
+          <li class="w3-padding-64">Microsoft Word</li>
+          <li  style="padding:58px">Microsoft Excel</li>
+           
+        </ul>
+      </div> 
+      </div> 
+      <div class="w3-row-padding" style="margin: 20px 1px;">
+        <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Advanced Platforms</li>
+          <li class="w3-padding-16">Jupyter</li>
+          <li class="w3-padding-16">SQL Server</li>
+          <li class="w3-padding-16">XAMPP</li>
+          <li class="w3-padding-16">VS Code</li>
+          <li class="w3-padding-16">Matlab</li>
+          
+        </ul> 
+
+      </div>
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Technologies</li>
+          <li class="w3-padding-16">Machine Learning</li>
+          <li class="w3-padding-16">Deep Learning</li>
+          <li class="w3-padding-16">Firebase</li>
+          <li class="w3-padding-16">Firestore</li>
+          <li class="w3-padding-16">Full stack</li>  
+      </div>
+</div>
+<!-- portfolio section -->
+<div class="w3-padding-16 w3-content"id="Project">
+    <h2 class="w3-text-light-grey" style="font-size: 35px;padding: 15px;">My Projects</h2>
+    <hr style="width:215px;position:relative;top:-28px;right:-14px" class="w3-opacity">
+    <div>
+  
+      <li style="padding:10px;position:relative;right: -10px;"><p  style="position:relative;top: -37px;right: -18px;font-size: 15px;text-align: left;">Basic Machine Learning Linear Regression model</p><a href="https://github.com/The-exotic-San7/Linear-regression-model-prediction"style="position: relative;right: -20px;top: -48px;color: royalblue;">Github</a></li>
+       <li style="padding:10px;position:relative;right: -10px;top: -40px;">
+         <p style="position:relative;top: -37px;right: -18px;text-align: left;">Linear Regression model optimising using Lasso Regression</p><a href="https://github.com/The-exotic-San7/Lasso-regression"style="position: relative;right: -20px; top: -48px;color: royalblue;">Github</a></li>
+
+         <li style="padding:10px;position:relative;right: -10px;top: -80px;">
+         <p style="position:relative;top: -37px;right: -18px;text-align: left;">Linear Regression model optimising using Ridge Regression</p><a href="https://github.com/The-exotic-San7/Ridge-Regression"style="position: relative;right: -20px; top: -48px;color: royalblue;">Github</a></li>
+
+        <li style="padding:10px;position:relative;right: -10px;top: -125px;">
+         <p style="position:relative;top: -37px;right: -18px;text-align: left;">Linear Regression model optimising using Elastic-Net Regression</p><a href="https://github.com/The-exotic-San7/ElasticNet-Regression"style="position: relative;right: -20px; top: -48px;color: royalblue;">Github</a></li>
+
+         <li style="padding:10px;position:relative;right: -10px;top: -170px;">
+         <p style="position:relative;top: -37px;right: -18px;text-align: left;">Static Website using Flask server</p><a href="#"style="position: relative;right: -20px; top: -48px;color: royalblue;">Github</a></li>
+
+         <li style="padding:10px;position:relative;right: -10px;top: -210px;">
+         <p style="position:relative;top: -37px;right: -18px;text-align: left;">Ai chatbot using Flask server</p><a href="https://github.com/The-exotic-San7/Simple-Chatbot"style="position: relative;right: -20px; top: -48px;color: royalblue;">Github</a></li>
+
+         <li style="padding:10px;position:relative;right: -10px;top: -250px;">
+         <p style="position:relative;top: -37px;right: -18px;text-align: left;">Dynamic Website using PHP,Mysql, Html and CSS</p><a href="https://github.com/The-exotic-San7/Game-library"style="position: relative;right: -20px; top: -48px;color: royalblue;">Github</a></li>
+
+         <li style="padding:10px;position:relative;right: -10px;top: -290px;">
+         <p style="position:relative;top: -37px;right: -18px;text-align: left;">Dynamic amazon signin page clone </p><a href="https://github.com/The-exotic-San7/Amazon-Sign-in-clone"style="position: relative;right: -20px; top: -48px;color: royalblue;">Github</a></li>
+ 
+ 
+    </div>
+    </div> 
+    <!--contact section -->
+     <div class=" w3-content w3-text-grey" id="contact"style="position: relative;top: -300px;right: -5px;">
+        <h2 class="w3-text-light-grey" style="font-size:35px;padding: 15px">Contact Me</h2>
+        <hr style="width:215px;position:relative;top:-28px;right:-16px" class="w3-opacity">
+
+      <div class="w3-section">
+       <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right" style="position:relative;right:-5px"></i> Kolkata,India</p>
+       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right" style="position:relative;right:-8px">  </i> Email: gsayantan771@gmail.com</p>
+       </div><br>
+        <p style="position:relative;right:-15px;top: -5px; font-size: 19px;font-family: sans-serif;">Let's get in touch. Send me a message:</p>
+
+        <form style="padding:15px;color: white;">
+          <p><input  class="w3-input w3-padding-16" type="text" required name="name"placeholder="Name"></p>
+          <p><input class="w3-input w3-padding-16" type="text" required name="Email"Placeholder="Email"></p>
+          <p><input class="w3-input w3-padding-16" type="text" required name="Subject"Placeholder="Subject"></p>
+          <p><input  class="w3-input w3-padding-16" type="text" required name="Message"Placeholder="Message"></p>
+          <p>
+            <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+              <i class="fa fa-paper-plane"></i> SEND
+            </button>
+          </p>
+        </form>
+       
+        <!--footer section -->
+
+        <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+         <a href="https://www.linkedin.com/in/sayantan-ghosh-86b055221/"><i style="position:relative;right:-20px" class="fa fa-linkedin w3-hover-opacity"></a></i>
+         <a href="https://github.com/The-exotic-San7"><i style="position:relative;right:-30px" class="fa fa-github w3-hover-opacity"></i></a>
+       </footer>
+     </div>
+    
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+  
+  
+     
+</body>
+
+</html> 
